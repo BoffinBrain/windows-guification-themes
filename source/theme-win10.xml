@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>Windows 10 Template</name>
+			<version>1.0</version>
+			<summary>Native OS style</summary>
+			<description>A theme which blends in with Windows, with detailed notifications and e-mail alerts.</description>
+			<author>BoffinbraiN</author>
+			<website>http://boffinbrain.deviantart.com</website>
+		</info>
+		<options>
+			<date_format>%x</date_format>
+			<time_format>%X</time_format>
+			<warning>N/A</warning>
+			<ellipsis>...</ellipsis>
+		</options>
+		<notification type='!master' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='sign-on' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='is online' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='sign-off' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='is offline' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='away' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='went away' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='back' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='returned' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='idle' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='went idle' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='unidle' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='returned from idle' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='im-message' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='says:' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%r' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='typing' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='is typing...' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='chat-message' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='says in chat:' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%r' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='nick-highlight' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<icon type='status' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='south-west'/>
+				<h_offset value='86'/>
+				<v_offset value='-8'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='said your name in chat' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='chat-join' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='joined the chat room' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%c' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='chat-part' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='left the chat room' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%c' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='chat-invite' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='invited you into chat' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%c' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='warn' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%W' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='warned you' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%c' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='topic-changed' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='changed topic' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%r' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='130'/>
+			</item>
+		</notification>
+		<notification type='new-email' use_gtk='1' background='background.png' width='200' height='60'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='10'/>
+				<v_offset value='8'/>
+				<text format='New Mail' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='184'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<text format='From: %c' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='184'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='10'/>
+				<v_offset value='-8'/>
+				<text format='%X' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-end' width='184'/>
+			</item>
+		</notification>
+		<notification type='file-remote-cancel' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='cancelled the file transfer' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%X' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-start' width='134'/>
+			</item>
+		</notification>
+		<notification type='file-recv-complete' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='sent you the file' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%X' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-start' width='134'/>
+			</item>
+		</notification>
+		<notification type='file-send-complete' use_gtk='0' background='background.png' width='204' height='68'>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='10'/>
+				<v_offset value='0'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='66'/>
+				<v_offset value='8'/>
+				<text format='%n' font='Segoe UI 12' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='66'/>
+				<v_offset value='-4'/>
+				<text format='received your file' font='Segoe UI 11' color='#ffffffffffff' clipping='ellipsis-end' width='130'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='66'/>
+				<v_offset value='-8'/>
+				<text format='%X' font='Segoe UI 11' color='#bbbbbbbbbbbb' clipping='ellipsis-start' width='134'/>
+			</item>
+		</notification>
+	</theme>
+</guifications>
