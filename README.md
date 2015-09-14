@@ -5,7 +5,13 @@ A set of native Windows notification styles to use with [Guifications](https://w
 
 V1.1 By [BoffinbraiN](http://boffinbrain.deviantart.com)
 
-![Screenshots](https://i.imgur.com/CgU3VPC.png)
+![Screenshots](https://i.imgur.com/rMvDpqO.png)
+
+Medium-sized notifications with avatar on left, statuses and protocol icons at bottom, with detailed two or three-line messages.  Supports all notification types, including new e-mail notifications. Source files and images included.
+
+- Windows XP: Classic (Windows 2000), Blue, Silver, Olive, Royale Blue (Media Center), Royale Noir (Zune)
+- Windows Vista + 7: Black, Blue, Green, Grey, Ice, Orange, Red, White
+- Windows 8 + 10: Black, Blue, Green, Grey, Orange, Purple, Red, Teal, Yellow
 
 
 Introduction
