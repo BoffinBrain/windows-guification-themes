@@ -17,7 +17,7 @@ Medium-sized notifications with avatar on left, statuses and protocol icons at b
 Introduction
 ------------
 
-Thanks for trying these themes.  I hope you find them beautiful and massively useful.  All notification types that the plugin supports, including new e-mail notifications, are available.
+Thanks for trying these themes.  I hope you find them beautiful and massively useful.
 
 I have very high standards, and I'm very proud to use these themes on a daily basis.  I would certainly hope you don't find any faults in my work!  But, if you do, then I welcome your feedback either on the submission page on [DeviantArt](http://boffinbrain.deviantart.com/art/Windows-Native-Guifications-Themes-284407004), as a comment the [SourceForge tracker](http://sourceforge.net/p/guifications/themes/146/), or on [GitHub](https://github.com/BoffinbraiN/windows-guification-themes).
 
