@@ -3,7 +3,7 @@ Windows Native Guifications Themes
 
 A set of native Windows notification styles to use with [Guifications](https://www.guifications.org/projects/gf2) for [Pidgin IM](http://pidgin.im/)
 
-V1.1 By [BoffinbraiN](http://boffinbrain.deviantart.com)
+V1.2 By [BoffinbraiN](http://boffinbrain.deviantart.com)
 
 ![Screenshots](https://i.imgur.com/rMvDpqO.png)
 
@@ -61,3 +61,4 @@ Version History
 
 - V1.0 2012-02-11 - Initial release with 6 themes for Windows XP and 8 colours for Windows Vista and 7.
 - V1.1 2015-08-25 - No changes to existing themes, but added 9 flat colour themes for Windows 8 and 10.
+- V1.2 2017-02-08 - Updated Win10 themes to workaround the Guifications slide animation glitch.
